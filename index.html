@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web de Robótica</title>
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- logo -->
+    <link rel="icon" href="./img/c392517600df7b09091fbc1946ba2e86-removebg-preview.png">
+</head>
+<body>
+    <!-- CABECERA -->
+    <header>
+        <div class="logo">
+            <img src="./img/c392517600df7b09091fbc1946ba2e86-removebg-preview.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="boton"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li><a href="#seccion2" class="boton"><i class="fa-solid fa-database"></i> Datos</a></li>
+                <li><a href="#map" class="boton"><i class="fa-solid fa-map"></i> Mapas</a></li>
+                <li><a href="#gallery" class="boton"><i class="fas fa-image"></i> Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- SECCIÓN 01 -->
+    <section class="video-seccion">
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="./img/¿Qué es un robot？.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="contenido-video">
+            <h1>Bienvenidos al Mundo de la Robótica</h1>
+            <a href="#seccion2" class="btn-ingresar"><i class="fa-solid fa-eye"></i> Ingresar a mi página</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 02 -->
+    <section id="seccion2" class="seccion-titulo-texto">
+        <h2>¿Qué es la Robótica?</h2>
+        <p>La robótica es una rama de la ingeniería que se ocupa del diseño, construcción y operación de robots.</p>
+    </section>
+
+    <!-- CUADRICULA 2 COLUMNAS Y 1 FILA -->
+    <section class="grid-imagen-formulario">
+        <div class="grid-container">
+            <div class="imagen grid1">
+                <img src="./img/thisisengineering-NaTaIvUFGtc-unsplash.jpg" alt="Imagen de robótica">
+            </div>
+            <div class="formulario grid2">
+                <h2>Contáctanos</h2>
+                <form>
+                    <input type="text" placeholder="Tu Nombre" class="nombre">
+                    <input type="password" placeholder="Tu Contraseña" class="contraseña">
+                    <input type="email" placeholder="Tu Correo" class="correo">
+                    <textarea placeholder="Tu Mensaje" class="mensaje"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN MAPA -->
+    <section id="map" class="mapa-seccion">
+        <h2>Ubicación de nuestro Instituto</h2>
+        <p>Encuentra nuestra sede aquí:</p>
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15603.223980257551!2d-77.0248363!3d-12.1254227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81c605ea5e1%3A0x17328a8b49d37914!2sISIL%20-%20Miraflores!5e0!3m2!1sen!2spe!4v1731464687657!5m2!1sen!2spe" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- SECCIÓN GALERÍA pase el mouse por las imagenes y ahi estara el texto para cada imagen-->
+    <section id="gallery" class="galeria">
+        <h2>Galería de Proyectos</h2>
+        <p>Explora cómo nuestra tecnología está dando forma al futuro de la automatización, la educación y la industria.</p>
+        <div class="grid-galeria">
+            <div class="item-galeria G1">
+                <img src="./img/jelleke-vanooteghem-6NUlOHM40w8-unsplash.jpg" alt="Proyecto 1">
+                <div class="subtitulo">
+                    <p>Proyecto de Robot Autónomo</p>
+                    <p>El proyecto de robot autónomo busca crear una máquina capaz de realizar tareas de forma independiente, utilizando sensores, IA y navegación para operar sin intervención humana.</p>
+                </div>
+            </div>
+            <div class="item-galeria G2">
+                <img src="./img/michael-fousert-RvmTvJ6tSwA-unsplash.jpg" alt="Proyecto 2">
+                <div class="subtitulo">
+                    <p>Robot Humanoide</p>
+                    <p>El robot humanoide es una máquina diseñada para imitar la forma y los movimientos humanos, con el potencial de realizar tareas complejas y asistir en entornos donde la intervención humana es difícil o peligrosa.</p>
+                </div>
+            </div>
+            <div class="item-galeria G3">
+                <img src="./img/thisisengineering-sbVu5zitZt0-unsplash.jpg" alt="Proyecto 3">
+                <div class="subtitulo">
+                    <p>Robot de Rescate</p>
+                    <p>Los robots de rescate son herramientas innovadoras que permiten salvar vidas en situaciones extremas, accediendo a zonas peligrosas y proporcionando ayuda rápida y eficiente donde los humanos no pueden llegar.</p>
+                </div>   
+            </div>
+            <div class="item-galeria G4">
+                <img src="./img/zhenyu-luo-kE0JmtbvXxM-unsplash.jpg" alt="Proyecto 4">
+                <div class="subtitulo">
+                    <p>Robot Educativo</p>
+                    <p>El robot educativo es una herramienta interactiva diseñada para enseñar conceptos de programación, robótica y STEM de manera práctica y divertida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="grid-footer">
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="informacion">
+                <h3>Mijael Alexander Dionicio Salazar</h3>
+            </div>
+            <div class="numero">
+                <p>907 415 261</p><!-- "telefono fijo" -->
+                <p>900 564 543</p>
+            </div>
+            <div class="instituto">
+                <p>Isil</p>
+                <p>Lima</p>
+                <p>Villa el Salvador</p>
+            </div>
+            <div class="carrera">
+                <h4>Desarrollo de Software</h4>
+                <p>2024</p>
+            </div>
+            <div class="profesor">
+                <h4>Docente: Roberto Inga Alvarado</h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
